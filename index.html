@@ -1,115 +1,76 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>个人主页1</title>
+    <title>个人主页</title>
     <style>
-		body {
-			font-family: Arial, sans-serif;
-			background-color: #f2f2f2;
-			margin: 0;
-			padding: 0;
-		}
+    body {
+      background-color: #f5f5f5;
+      font-family: Arial, sans-serif;
+    }
 
-		header {
-			background-color: #333333;
-			color: white;
-			text-align: center;
-			padding: 20px;
-			font-size: 36px;
-		}
+    .card {
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      margin-bottom: 20px;
+      padding: 30px;
+    }
 
-		.container {
-			max-width: 800px;
-			margin: auto;
-			padding: 20px;
-			line-height: 1.5;
-			text-align: justify;
-		}
+    .card h2 {
+      font-size: 24px;
+      margin-top: 0;
+    }
 
-		h1 {
-			font-size: 28px;
-			color: #333333;
-			margin-top: 30px;
-			margin-bottom: 10px;
-		}
+    .card p {
+      font-size: 16px;
+      line-height: 1.5;
+    }
 
-		h2 {
-			font-size: 24px;
-			color: #333333;
-			margin-top: 20px;
-			margin-bottom: 10px;
-		}
+    .button {
+      background-color: #3498db;
+      border: none;
+      border-radius: 4px;
+      color: #fff;
+      cursor: pointer;
+      font-size: 16px;
+      padding: 10px 20px;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
 
-		p {
-			margin-bottom: 10px;
-		}
-
-		a {
-			color: #333333;
-			text-decoration: none;
-		}
-
-		a:hover {
-			color: #666666;
-		}
-
-		ul {
-			list-style: none;
-			padding-left: 0;
-		}
-
-		li {
-			margin-bottom: 10px;
-		}
-
-		img {
-			max-width: 100%;
-			height: auto;
-			margin-top: 20px;
-			margin-bottom: 20px;
-			display: block;
-		}
-	</style>
+    .button:hover {
+      background-color: #2980b9;
+    }
+  </style>
 </head>
 <body>
-<header>
-    <h1>个人主页</h1>
-</header>
+<div class="card">
+    <h2>关于我</h2>
+    <p>你好，我是XXX，一名XXXX。</p>
+    <p>我喜欢XXXX，并经常在我的空闲时间里从事XXXXX。</p>
+    <p>如果您想了解更多关于我的信息，请点击下面的按钮。</p>
+    <a href="#" class="button">了解更多</a>
+</div>
 
-<div class="container">
-    <h2>个人信息</h2>
-    <p>这里写一些关于你的基本信息。</p>
-
-    <h2>教育背景</h2>
+<div class="card">
+    <h2>技能</h2>
     <ul>
-        <li>学历1，时间范围，学校</li>
-        <li>学历2，时间范围，学校</li>
-        <li>学历3，时间范围，学校</li>
+        <li>HTML/CSS</li>
+        <li>JavaScript</li>
+        <li>Python</li>
+        <li>Photoshop</li>
     </ul>
+</div>
 
-    <h2>工作经历</h2>
+<div class="card">
+    <h2>联系我</h2>
+    <p>如果您有任何问题或想与我合作，请随时通过以下方式联系我：</p>
     <ul>
-        <li>职位1，公司，时间范围</li>
-        <li>职位2，公司，时间范围</li>
-        <li>职位3，公司，时间范围</li>
+        <li>电子邮件：xxxxx@gmail.com</li>
+        <li>电话：+1 (XXX) XXX-XXXX</li>
+        <li>社交媒体：Instagram，Twitter，LinkedIn</li>
     </ul>
-
-    <h2>技能和专业知识</h2>
-    <ul>
-        <li>技能1</li>
-        <li>技能2</li>
-        <li>技能3</li>
-    </ul>
-
-    <h2>联系方式</h2>
-    <ul>
-        <li>Email：<a href="mailto:youremail@example.com">youremail@example.com</a></li>
-        <li>LinkedIn：<a href="https://www.linkedin.com/in/yourprofile/">Your Name</a></li>
-        <li>GitHub：<a href="https://github.com/yourusername">yourusername</a></li>
-    </ul>
-
-    <img src="yourphoto.jpg" alt="你的照片">
 </div>
 </body>
 </html>
