@@ -1,76 +1,71 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
-    <title>个人主页</title>
+    <title>C9的个人主页</title>
     <style>
-    body {
-      background-color: #f5f5f5;
-      font-family: Arial, sans-serif;
-    }
+        .container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
 
-    .card {
-      background-color: #fff;
-      border-radius: 10px;
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-      margin-bottom: 20px;
-      padding: 30px;
-    }
+.card {
+  width: 300px;
+  height: 350px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.12);
+  padding: 20px;
+  margin: 20px;
+  transition: all 0.3s ease;
+}
 
-    .card h2 {
-      font-size: 24px;
-      margin-top: 0;
-    }
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.16);
+}
 
-    .card p {
-      font-size: 16px;
-      line-height: 1.5;
-    }
+.card h2 {
+  font-size: 24px;
+  text-align: center;
+}
 
-    .button {
-      background-color: #3498db;
-      border: none;
-      border-radius: 4px;
-      color: #fff;
-      cursor: pointer;
-      font-size: 16px;
-      padding: 10px 20px;
-      text-decoration: none;
-      transition: background-color 0.3s ease;
-    }
+.card p {
+  font-size: 18px;
+  text-align: justify;
+}
 
-    .button:hover {
-      background-color: #2980b9;
-    }
-  </style>
+.header {
+  background-color: #212121;
+  color: #fff;
+  text-align: center;
+  padding: 50px;
+}
+
+
+    </style>
 </head>
 <body>
-<div class="card">
-    <h2>关于我</h2>
-    <p>你好，我是XXX，一名XXXX。</p>
-    <p>我喜欢XXXX，并经常在我的空闲时间里从事XXXXX。</p>
-    <p>如果您想了解更多关于我的信息，请点击下面的按钮。</p>
-    <a href="#" class="button">了解更多</a>
+<div class="header">
+    <h1>C9的个人主页</h1>
 </div>
 
-<div class="card">
-    <h2>技能</h2>
-    <ul>
-        <li>HTML/CSS</li>
-        <li>JavaScript</li>
-        <li>Python</li>
-        <li>Photoshop</li>
-    </ul>
-</div>
+<div class="container">
+    <div class="card">
+        <h2>个人信息</h2>
+        <p>我叫C9，是一名Java程序员。</p>
+    </div>
 
-<div class="card">
-    <h2>联系我</h2>
-    <p>如果您有任何问题或想与我合作，请随时通过以下方式联系我：</p>
-    <ul>
-        <li>电子邮件：xxxxx@gmail.com</li>
-        <li>电话：+1 (XXX) XXX-XXXX</li>
-        <li>社交媒体：Instagram，Twitter，LinkedIn</li>
-    </ul>
+    <div class="card">
+        <h2>频道介绍</h2>
+        <p>我拥有一个专门收集各种Xposed相关工具和模块的频道。该频道成立已经三年了，我和我的团队花费了大量精力来维护它。</p>
+    </div>
+
+    <div class="card">
+        <h2>Neon客户端开发</h2>
+        <p>除此之外，我还是Neon客户端的开发者。我在其中负责设计和开发功能，以及解决与其他团队成员遇到的问题。</p>
+    </div>
 </div>
 </body>
 </html>
