@@ -1,148 +1,139 @@
-<!doctype html>
-<html lang="zh-CN">
+<!DOCTYPE html>
+<html>
 
-  <head>
+<head>
+    <!-- Meta, title, CSS, favicons, etc. -->
     <meta charset="utf-8">
-    <title>我的网页 - HTMLPAGE.CN</title>
-    <link rel="shortcut icon" href="https://htmlpage.cn/favicon.png">
-    <style>
-      @font-face {
-        font-family: Unicons;
-        src: url(fonts/Unicons.woff2) format("woff2"), url(fonts/Unicons.woff) format("woff");
-        font-weight: 400;
-        font-style: normal;
-        font-display: block
-      }
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Dmego Home">
+    <meta name="keywords" content="Dmego,Homepage">
+    <meta name="author" content="Dmego">
+    <title>FancyPig个人主页 | 模板1</title>
+    <link rel="stylesheet" type="text/css" href="https://unpkg.com/dmego-home-page@latest/assets/css/onlinewebfonts.css"/>
+    <link rel="stylesheet" type="text/css" href="https://unpkg.com/dmego-home-page@latest/assets/css/vno.css">
+    <link rel="stylesheet" type="text/css" href="https://unpkg.com/dmego-home-page@latest/assets/css/iconfont.css">
+    <link rel="apple-touch-icon" href="https://unpkg.com/dmego-home-page@latest/apple-touch-icon.png">
+    <link rel="icon" href="https://www.iculture.cc/favicon.ico">
+</head>
 
-      @font-face {
-        font-family: Custom;
-        src: url(fonts/Custom.woff2) format("woff2"), url(fonts/Custom.woff) format("woff");
-      }
+<body>
+    <span class="mobile btn-mobile-menu">
+        <i class="social iconfont icon-list btn-mobile-menu__icon"></i>
+        <i class="social iconfont icon-angleup btn-mobile-close__icon hidden"></i>
+    </span>
+    <header id="panel" class="panel-cover">
+        <div class="panel-main">
+            <div class="panel-main__inner panel-inverted">
+                <div class="panel-main__content">
+                    <div class="ih-item circle effect right_to_left">            
+                        <a href="#" title="" class="blog-button">
+                            <div class="img"><img src="https://www.iculture.cc/icon/logo.png" alt="img" class="js-avatar iUp profilepic"></div>
+                            <div class="info iUp">
+                                <div class="info-back">
+                                    <h2> 
+                                        
+                                            Fighting
+                                        
+                                    </h2>
+                                    <p>
+                                        
+                                            2022 · 自律
+                                        
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <h1 class="panel-cover__title panel-title iUp">
+                        <a href="#" title="Dmego Home">FancyPig</a>
+                    </h1>
+                    <p class="panel-cover__subtitle panel-subtitle iUp">Code Create Life</p>
+                    <hr class="panel-cover__divider iUp" />
+                    <p id="description" class="panel-cover__description iUp">如何得与凉风约, 不共尘沙一并来!
+                        <br/>
+                        <strong>-「中牟道中」</strong>
+                    </p>
+                    <div class="navigation-wrapper iUp">
+                        <div>
+                            <nav class="cover-navigation cover-navigation--primary">
+                                <ul class="navigation">
+                                    <li class="navigation__item">
+                                        <a href="/" class="blog-button">首页</a>
+                                    </li>
+                                    <li class="navigation__item">
+                                        <a href="https://www.iculture.cc" class="blog-button" target="_blank">博客</a>
+                                    </li>
+                                    <li class="navigation__item">
+                                        <a href="https://www.iculture.cc/forums" class="blog-button" target="_blank">社区</a>
+                                    </li>
+                                    <li class="navigation__item">
+                                        <a href="https://tools.iculture.cc" class="blog-button" target="_blank">工具</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="iUp">
+                            <nav class="cover-navigation navigation--social">
+                                <ul class="navigation">
+                                    <li class="navigation__item">
+                                        <a href="#" title="github" target="_blank">
+                                            <i class='social iconfont icon-github'></i>
+                                            <span class="label">github</span>
+                                        </a>
+                                    </li>
+                                    <li class="navigation__item">
+                                        <a href="#" title="cnblogs" target="_blank">
+                                            <i class='social iconfont icon-cnblogs'></i>
+                                            <span class="label">cnblogs</span>
+                                        </a>
+                                    </li>
 
-      .img-mask.mask-1 img {
-        -webkit-mask-image: url(img/blob.svg) !important;
-        mask-image: url(img/blob.svg) !important;
-      }
-
-      .img-mask.mask-2 img {
-        -webkit-mask-image: url(img/hex.svg) !important;
-        mask-image: url(img/hex.svg) !important;
-      }
-
-      .img-mask.mask-3 img {
-        -webkit-mask-image: url(img/blob2.svg) !important;
-        mask-image: url(img/blob2.svg) !important;
-      }
-    </style>
-    <link rel="stylesheet" href="./css/user-style.css">
-  </head>
-
-  <body>
-
-    <body>
-      <title>陈雅莉个人简历</title>
-      <link rel="stylesheet" type="text/css" href="https://template-1253409072.cos.ap-guangzhou.myqcloud.com/html-template/template-resume-00002/styles.css" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <div class="container">
-        <div class="hero">
-          <h1 class="name">c9cn</h1><span class="job-title">软件开发</span><span class="email">c9.cn@outlook.com</span>
-          <h2 class="lead">基础java架构师</h2>
-        </div>
-      </div><!-- Skills and intrest section -->
-      <div class="container">
-        <div class="sections">
-          <h2 class="section-title">个人技能</h2>
-          <div class="list-card"><span class="exp">5年+</span>
-            <div>
-              <h3>前端开发</h3><span>JavaScript, HTML, CSS, Vuejs, Reactjs …</span>
+                                    <li class="navigation__item">
+                                        <a href="https://www.iculture.cc/zhihu" title="zhihu" target="_blank">
+                                            <i class='social iconfont icon-zhihu'></i>
+                                            <span class="label">zhihu</span>
+                                        </a>
+                                    </li>
+                                    <li class="navigation__item">
+                                        <!-- 加密的邮箱地址, 请自行修改, 或者改用下方的明文方式 -->
+                                        <a href="javascript:decryptEmail('ZmFuY3lwaWdAaWN1bHR1cmUuY2M=');" title="email">
+                                        <!-- <a href="test@test.com" title="email"> -->
+                                            <i class='social iconfont icon-email'></i>
+                                            <span class="label">email</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="list-card"><span class="exp">3年</span>
-            <div>
-              <h3>网页设计师</h3><span>Firework, Photoshop, Sketch …</span>
-            </div>
-          </div>
-          <div class="list-card"><span class="exp">6年+</span>
-            <div>
-              <h3>运维管理</h3><span>脚本、服务器管理和协议、自动化</span>
-            </div>
-          </div>
+            <div class="panel-cover--overlay cover-slate"></div>
         </div>
-        <div class="sections">
-          <h2 class="section-title">兴趣爱好</h2>
-          <div class="list-card">
-            <div>
-              <h3>Scripting languages</h3><span>PHP, JS, Bash, Python</span>
-            </div>
-          </div>
-          <div class="list-card">
-            <div>
-              <h3>Hacking</h3><span>Linux, Crawlers, Bots, Network</span>
-            </div>
-          </div>
+        <!-- <div class="beian iUp">
+            <a class="icp" href="http://www.miitbeian.gov.cn/publish/query/indexFirst.action" target="_blank">XXX</a>
+            <a class="gwab" href="http://www.beian.gov.cn/portal/recordQuery" target="_blank">XXX</a>
+        </div> -->
+        <div class="remark iUp">
+            <p class="power">Designed By 
+                <a href="https://www.iculture.cc" target="_blank"> FancyPig's blog </a>
+            </p>
         </div>
-      </div><!-- Achievements -->
-      <div class="container cards">
-        <div class="card">
-          <div class="skill-level"><span>+</span>
-            <h2>60</h2>
-          </div>
-          <div class="skill-meta">
-            <h3>项目经验</h3><span>适应和创建满足客户需求的解决方案</span>
-          </div>
-        </div>
-        <div class="card">
-          <div class="skill-level">
-            <h2>50</h2><span>%</span>
-          </div>
-          <div class="skill-meta">
-            <h3>项目开发</h3><span>集成第三方服务和移动客户端的应用程序开发</span>
-          </div>
-        </div>
-        <div class="card">
-          <div class="skill-level">
-            <h2>30</h2><span>%</span>
-          </div>
-          <div class="skill-meta">
-            <h3>解决方案</h3><span>如网络服务、脚本、配置</span>
-          </div>
-        </div>
-        <div class="card">
-          <div class="skill-level">
-            <h2>20</h2><span>%</span>
-          </div>
-          <div class="skill-meta">
-            <h3>团队管理</h3><span>Web项目和确保交付质量</span>
-          </div>
-        </div>
-      </div><!-- Timeeline -->
-      <div class="container">
-        <ol class="timeline">
-          <li>
-            <p class="line">工作经验</p><span class="point"></span>
-            <p class="description">
-              开发组长 | 某某科技大厂
-            </p><span class="date">2016年至今</span>
-          </li>
-          <li><span class="point"></span>
-            <p class="description">
-              资深开发工程师
-            </p><span class="date">2015 - 2016</span>
-          </li>
-          <li>
-            <p class="line">教育经历</p><span class="point"></span>
-            <p class="description">
-              斯坦福大学
-            </p><span class="date">2013 - 2015</span>
-          </li>
-          <li><span class="point"></span>
-            <p class="description">
-              艺术与设计研究
-            </p><span class="date">2008 - 2013</span>
-          </li>
-        </ol>
-      </div><br /><br />
-      <footer class="container"><span id="inu7kj" class="c5255">Copyright © 2023. 版权所有.</span></footer>
-    </body>
-  </body>
-  <html>
+    </header>
+    <script type="text/javascript" src="https://unpkg.com/dmego-home-page@latest/assets/js/jquery.min.js"></script>
+    <script type="text/javascript" src="https://unpkg.com/dmego-home-page@latest/assets/js/main.js"></script>
+    <script type="text/javascript" src="./assets/json/images.json?cb=getBingImages"></script>
+</body>
+</html>
+
+<!-- Google Analytics (请自行删除) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-215076542-1">
+</script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-215076542-1');
+</script>
